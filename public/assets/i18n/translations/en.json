@@ -1,3 +1,9 @@
 {
-  "test": "test"
+  "home": "Home",
+  "architects": "Architects",
+  "about": "About",
+  "maksim": "Maksim Malenho",
+  "vlad": "Vladislav Kovalenko",
+  "rus": "Russian",
+  "eng": "English"
 }
