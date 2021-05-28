@@ -18,9 +18,10 @@ export default function Architect(props) {
     return (
         <div>
             <Header/>
-            <div className="text-center">
-                <img src={vlad} cclass="rounded mx-auto d-block"/>
+            <div className="col-sm">
+                <img src={vlad} id="imgWriterDay" className="img-fluid"></img>
             </div>
+            <hr className="featurette-divider"/>
             <ul className="timeline">
                 {author.timeline.map(item =>
                     <li className="event" data-date="12:30 - 1:00pm">

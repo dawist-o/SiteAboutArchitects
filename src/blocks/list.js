@@ -11,7 +11,6 @@ import Grid from "@material-ui/core/Grid";
 import SearchIcon from "@material-ui/icons/Search";
 
 
-
 export default function SearchPage(props) {
     const langUtil = new LanguageUtil()
     const [value, setValue] = useState('')
@@ -21,26 +20,28 @@ export default function SearchPage(props) {
 
     return (<div>
             <Header/>
-            <FormGroup>
-                <Typography component="h1" variant="h5">{("search-by-name")}</Typography>
-                <FormControl>
-                    <InputLabel htmlFor="input-with-icon-adornment">{"author"}</InputLabel>
-                    <Input
-                        onChange={(event) => setValue(event.target.value)}
-                        id="input-with-icon-adornment"
-                        startAdornment={
-                            <InputAdornment position="start">
-                                <SearchIcon/>
-                            </InputAdornment>
-                        }
-                    />
-                </FormControl>
-            </FormGroup>
+            <div className="container">
+                <FormGroup>
+                    <Typography component="h1" variant="h5">{("search-by-name")}</Typography>
+                    <FormControl>
+                        <Input
+                            onChange={(event) => setValue(event.target.value)}
+                            id="input-with-icon-adornment"
+                            startAdornment={
+                                <InputAdornment position="start">
+                                    <SearchIcon/>
+                                </InputAdornment>
+                            }
+                        />
+                        <hr className="featurette-divider"/>
+                    </FormControl>
+                </FormGroup>
             <Grid container spacing={4}>
                 {filteredPhotographers.map(person => (
                     <ListItem key={person.id} author={person}/>
                 ))}
             </Grid>
+            </div>
         </div>
     );
 }
