@@ -22,7 +22,7 @@ export default function Footer() {
                     <img src={maxim}
                          style={{width: '120px', height: '120px', borderRadius: '50%', margin: '30px'}}/>
                     <div style={{alignSelf: 'center'}}>
-                        <h3>{t("maxim")}</h3>
+                        <h3>{t("maksim")}</h3>
                         <p>aka Weizhau</p>
                         <p><a className="btn btn-secondary" href="https://github.com/Weizhau">Github »</a></p>
                     </div>
