@@ -1,5 +1,7 @@
 import React from 'react';
 import LanguageUtil from "../util/language";
+
+import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
@@ -9,14 +11,16 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Hidden from '@material-ui/core/Hidden';
 import {withRouter} from 'react-router';
 
-export default function ListItem(props) {
+function ListItem(props) {
     const langUtil = new LanguageUtil()
 
     const {author} = props;
 
+    console.log("author " + author);
+
     return (
         <Grid item xs={12} md={6}>
-            <CardActionArea component="a" onClick={() => props.history.push(`/photographer/${author.id}`)}>
+            <CardActionArea component="a" onClick={() => props.history.push(`/architect/${author.id}`)}>
                 <Card>
                     <div>
                         <CardContent>
@@ -37,10 +41,8 @@ export default function ListItem(props) {
     )
 }
 
-/*
 export default withRouter(ListItem)
 
 ListItem.propTypes = {
     author: PropTypes.object,
 };
-*/
