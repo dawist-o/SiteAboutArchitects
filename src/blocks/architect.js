@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';*/
 export default function Architect(props) {
     const langUtil = new LanguageUtil()
     var id = 2;
-    const author = architects.filter(person => person.id === Number(id))[0]
+    const author = architects.filter(person => person.id === Number(props.match.params.id))[0]
     if (!author) {
         props.history.push('/')
     }
