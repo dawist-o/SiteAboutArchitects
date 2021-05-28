@@ -1,3 +1,4 @@
+import i18n from '../../src/i18n';
 import { Form } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next'
 
