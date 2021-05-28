@@ -2,7 +2,7 @@ const architects = [
     {
         id: 1,
         name: {
-            "en": "Georgiy ",
+            "en": "Georgiy Zaborski",
             "ru": "Георгий Заборский"
         },
         years: "1909 - 1999",
