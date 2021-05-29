@@ -10,7 +10,6 @@ export default class LanguageUtil {
 
     getCurrentLanguage() {
         let item = localStorage.getItem('lang');
-        return item === null ? 'ru' : item
+        return item === null ? 'en' : item
     }
 }
-

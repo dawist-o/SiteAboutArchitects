@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {useTranslation} from "react-i18next";
+
 import LanguageUtil from "../util/language";
 
 import '../styles/timeline.css';
@@ -12,6 +14,7 @@ import 'react-slideshow-image/dist/styles.css'
 
 
 export default function Architect(props) {
+    useTranslation()
     const langUtil = new LanguageUtil()
 
     console.log("current id = " + props.match.params.id)

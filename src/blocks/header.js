@@ -15,6 +15,7 @@ export default function Header() {
     const changeLanguage = (lng) => {
         langUtil.setCurrentLanguage(lng)
         i18n.changeLanguage(lng)
+        console.log("lng " + lng)
         console.log("Language " + langUtil.getCurrentLanguage())
     }
 

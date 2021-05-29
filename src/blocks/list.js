@@ -4,6 +4,8 @@ import photographers from "../data/architects";
 import LanguageUtil from "../util/language";
 import ListItem from "./listItem";
 
+import {useTranslation} from "react-i18next";
+
 import {Container} from 'react-bootstrap'
 
 import {FormControl, FormGroup, Input, InputAdornment} from "@material-ui/core";
@@ -13,6 +15,7 @@ import SearchIcon from "@material-ui/icons/Search";
 
 
 export default function SearchPage(props) {
+    const {t} = useTranslation()
     const langUtil = new LanguageUtil()
     const [value, setValue] = useState('')
 
@@ -21,7 +24,7 @@ export default function SearchPage(props) {
 
     return (<Container>
             <FormGroup>
-                <Typography component="h1" variant="h5">{("search-by-name")}</Typography>
+                <Typography component="h1" variant="h5">{t("search-by-name")}</Typography>
                 <FormControl>
                     <Input
                         onChange={(event) => setValue(event.target.value)}
