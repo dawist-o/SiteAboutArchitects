@@ -14,10 +14,16 @@ import 'react-slideshow-image/dist/styles.css'
 export default function Architect(props) {
     const langUtil = new LanguageUtil()
 
+    console.log("current id = " + props.match.params.id)
+   /* const id = 10;
+    const author = architects.filter(person => person.id === Number(id))[0]
+*/
     const author = architects.filter(person => person.id === Number(props.match.params.id))[0]
     if (!author) {
         props.history.push('/')
     }
+    console.log("current author = " + author)
+
 
     return (
         <div>
