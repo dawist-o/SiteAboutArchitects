@@ -5,6 +5,8 @@ import Header from "./header";
 import '../styles/timeline.css';
 import architects from "../data/architects";
 
+import {Container} from 'react-bootstrap'
+
 import {Slide} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
@@ -20,7 +22,7 @@ export default function Architect(props) {
     return (
         <div>
             <Header/>
-            <div className="container">
+            <Container>
                 <div style={{
                     alignItems: "center",
                     justifyContent: "center",
@@ -39,17 +41,15 @@ export default function Architect(props) {
                         <h5 style={{fontSize: '35px'}}>{author.years}</h5>
                     </div>
                 </div>
-            </div>
-            <hr className="featurette-divider"/>
-            <ul className="timeline">
-                {author.timeline.map(item =>
-                    <li className="event" data-date={item.date}>
-                        <p>{item.description[langUtil.getCurrentLanguage()]}</p>
-                    </li>
-                )}
-            </ul>
-            <hr className="featurette-divider"/>
-            <div className="container">
+                <hr className="featurette-divider"/>
+                <ul className="timeline">
+                    {author.timeline.map(item =>
+                        <li className="event" data-date={item.date}>
+                            <p>{item.description[langUtil.getCurrentLanguage()]}</p>
+                        </li>
+                    )}
+                </ul>
+                <hr className="featurette-divider"/>
                 <div className="slide-container">
                     <Slide>
                         {author.images.map(item =>
@@ -65,9 +65,7 @@ export default function Architect(props) {
                         )}
                     </Slide>
                 </div>
-            </div>
-            <hr className="featurette-divider"/>
-            <div className="container">
+                <hr className="featurette-divider"/>
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe width="1264" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                             title="YouTube video player" frameBorder="0"
@@ -81,7 +79,7 @@ export default function Architect(props) {
                         width="100%" height="450" frameBorder="0" style={{border: 0}}
                         allowFullScreen/>
                 </div>
-            </div>
+            </Container>
         </div>
     )
 }
