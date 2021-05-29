@@ -6,6 +6,10 @@ const architects = [
             "ru": "Георгий Заборский"
         },
         years: "1909 - 1999",
+        bio: {
+          "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+          "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -16,21 +20,21 @@ const architects = [
             },
             {
                 date: "1929",
-                description:{
+                description: {
                     "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
                     "en": "After completing his studies, Georgy Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, etc."
                 }
             },
             {
                 date: "1939",
-                description:{
+                description: {
                     "ru": "После окончания Академии искусств в Г. Заборский по конкурсу попал в Москву, но работал там недолго и быстро получил направление в Минск. Здесь он был назначен руководителем научной экспедиции по изучению памятников архитектуры и искусства Гомельской и Полесской областей.",
                     "en": "After graduating from the Academy of Arts in Zaborsky, he entered Moscow through a competition, but did not work there for long and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesie regions."
                 }
             },
             {
                 date: "1945 - 1964",
-                description:{
+                description: {
                     "ru": "Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»). Он принимает активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши. Георгий Заборский принимает участие в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).",
                     "en": "Georgy Zaborsky directs the architectural and design workshops of the design institutes Belgosproekt and Minskproekt and at the same time teaches at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University). He takes an active part in the development of planning and development projects in Minsk, Polotsk, Orsha. Georgy Zaborsky takes part in the design of the squares of Minsk: Lenin (Independence), Central (October), Round (Victory)."
                 }
@@ -62,6 +66,10 @@ const architects = [
             "ru": "Иосиф Лангбард"
         },
         years: "1889 - 1951",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -72,14 +80,14 @@ const architects = [
             },
             {
                 date: "1929",
-                description:{
+                description: {
                     "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
                     "en": "After completing his studies, Georgy Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, etc."
                 }
             },
             {
                 date: "1945 - 1964",
-                description:{
+                description: {
                     "ru": "Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»). Он принимает активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши. Георгий Заборский принимает участие в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).",
                     "en": "Georgy Zaborsky directs the architectural and design workshops of the design institutes Belgosproekt and Minskproekt and at the same time teaches at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University). He takes an active part in the development of planning and development projects in Minsk, Polotsk, Orsha. Georgy Zaborsky takes part in the design of the squares of Minsk: Lenin (Independence), Central (October), Round (Victory)."
                 }
@@ -87,24 +95,24 @@ const architects = [
         ],
         images: [
             {
-                date: "1929",
-                description:{
-                    "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
-                    "en": "After completing his studies, Georgy Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, etc."
+                img: "https://minsk-old-new.com/assets/images/images_new/osmolovka/mihail_osmolovskiy_arhitektor.jpg",
+                title: {
+                    "en": 'Personal photo',
+                    "ru": 'Личное фото'
                 }
             },
             {
-                date: "1939",
-                description:{
-                    "ru": "После окончания Академии искусств в Г. Заборский по конкурсу попал в Москву, но работал там недолго и быстро получил направление в Минск. Здесь он был назначен руководителем научной экспедиции по изучению памятников архитектуры и искусства Гомельской и Полесской областей.",
-                    "en": "After graduating from the Academy of Arts in Zaborsky, he entered Moscow through a competition, but did not work there for long and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesie regions."
+                img: "https://minsk-old-new.com/assets/images/images_new/osmolovka/osmolovka-1.jpg",
+                title: {
+                    "en": 'Project 1',
+                    "ru": 'Проект 1'
                 }
             },
             {
-                date: "1945 - 1964",
-                description:{
-                    "ru": "Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»). Он принимает активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши. Георгий Заборский принимает участие в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).",
-                    "en": "Georgy Zaborsky directs the architectural and design workshops of the design institutes Belgosproekt and Minskproekt and at the same time teaches at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University). He takes an active part in the development of planning and development projects in Minsk, Polotsk, Orsha. Georgy Zaborsky takes part in the design of the squares of Minsk: Lenin (Independence), Central (October), Round (Victory)."
+                img: "https://artdic.ru/public/images/gallery/2_47_6357.jpg",
+                title: {
+                    "en": 'Project 2',
+                    "ru": 'Проект 2'
                 }
             }
         ]
@@ -116,6 +124,10 @@ const architects = [
             "ru": "Михаил Осмоловский"
         },
         years: "1895 - 1963",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -126,21 +138,21 @@ const architects = [
             },
             {
                 date: "1929",
-                description:{
+                description: {
                     "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
                     "en": "After completing his studies, Georgy Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, etc."
                 }
             },
             {
                 date: "1939",
-                description:{
+                description: {
                     "ru": "После окончания Академии искусств в Г. Заборский по конкурсу попал в Москву, но работал там недолго и быстро получил направление в Минск. Здесь он был назначен руководителем научной экспедиции по изучению памятников архитектуры и искусства Гомельской и Полесской областей.",
                     "en": "After graduating from the Academy of Arts in Zaborsky, he entered Moscow through a competition, but did not work there for long and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesie regions."
                 }
             },
             {
                 date: "1945 - 1964",
-                description:{
+                description: {
                     "ru": "Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»). Он принимает активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши. Георгий Заборский принимает участие в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).",
                     "en": "Georgy Zaborsky directs the architectural and design workshops of the design institutes Belgosproekt and Minskproekt and at the same time teaches at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University). He takes an active part in the development of planning and development projects in Minsk, Polotsk, Orsha. Georgy Zaborsky takes part in the design of the squares of Minsk: Lenin (Independence), Central (October), Round (Victory)."
                 }
@@ -149,15 +161,24 @@ const architects = [
         images: [
             {
                 img: "https://minsk-old-new.com/assets/images/images_new/osmolovka/mihail_osmolovskiy_arhitektor.jpg",
-                title: 'Personal photo',
+                title: {
+                    "en": 'Personal photo',
+                    "ru": 'Личное фото'
+                }
             },
             {
                 img: "https://minsk-old-new.com/assets/images/images_new/osmolovka/osmolovka-1.jpg",
-                title: 'Project 1'
+                title: {
+                    "en": 'Project 1',
+                    "ru": 'Проект 1'
+                }
             },
             {
                 img: "https://artdic.ru/public/images/gallery/2_47_6357.jpg",
-                title: "Project 2"
+                title: {
+                    "en": 'Project 2',
+                    "ru": 'Проект 2'
+                }
             }
         ]
     },
@@ -168,6 +189,10 @@ const architects = [
             "ru": "Наум Трахтенберг"
         },
         years: "1901 - 1973",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -178,14 +203,14 @@ const architects = [
             },
             {
                 date: "1929",
-                description:{
+                description: {
                     "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
                     "en": "After completing his studies, Georgy Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, etc."
                 }
             },
             {
                 date: "1939",
-                description:{
+                description: {
                     "ru": "После окончания Академии искусств в Г. Заборский по конкурсу попал в Москву, но работал там недолго и быстро получил направление в Минск. Здесь он был назначен руководителем научной экспедиции по изучению памятников архитектуры и искусства Гомельской и Полесской областей.",
                     "en": "After graduating from the Academy of Arts in Zaborsky, he entered Moscow through a competition, but did not work there for long and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesie regions."
                 }
@@ -194,15 +219,24 @@ const architects = [
         images: [
             {
                 img: "https://minsknews.by/wp-content/uploads/2014/01/Naum-trahtenberg.jpg",
-                title: 'Personal photo',
+                title: {
+                    "en": 'Personal photo',
+                    "ru": 'Личное фото'
+                }
             },
             {
                 img: "https://ais.by/sites/ais.by/files/images/2_2005/tra2.jpg",
-                title: 'Project 1'
+                title: {
+                    "en": 'Project 1',
+                    "ru": 'Проект 1'
+                }
             },
             {
                 img: "https://www.belta.by/uploads/lotus/news/000022_28421640F1EA787B4325840700457821_951143.jpg",
-                title: "Project 2"
+                title: {
+                    "en": 'Project 2',
+                    "ru": 'Проект 2'
+                }
             }
         ]
     },
@@ -213,6 +247,10 @@ const architects = [
             "ru": "Владимир Король"
         },
         years: "1892 - 1962",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -223,7 +261,7 @@ const architects = [
             },
             {
                 date: "1929",
-                description:{
+                description: {
                     "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
                     "en": "After completing his studies, Georgy Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, etc."
                 }
@@ -232,11 +270,17 @@ const architects = [
         images: [
             {
                 img: "https://upload.wikimedia.org/wikipedia/ru/7/7c/Karol_VA.jpg",
-                title: 'Personal photo',
+                title: {
+                    "en": 'Personal photo',
+                    "ru": 'Личное фото'
+                }
             },
             {
                 img: "https://ais.by/sites/ais.by/files/images/1_2006/25-2.jpg",
-                title: 'Project 1'
+                title: {
+                    "en": 'Project 1',
+                    "ru": 'Проект 1'
+                }
             }
         ]
     },
@@ -247,6 +291,10 @@ const architects = [
             "ru": "Генрих Гай"
         },
         years: "1876 - 1942",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -257,14 +305,14 @@ const architects = [
             },
             {
                 date: "1929",
-                description:{
+                description: {
                     "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
                     "en": "Ended school"
                 }
             },
             {
                 date: "1945 - 1964",
-                description:{
+                description: {
                     "ru": "Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»). Он принимает активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши. Георгий Заборский принимает участие в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).",
                     "en": "Georgiy"
                 }
@@ -273,15 +321,24 @@ const architects = [
         images: [
             {
                 img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Anti-ACTA-Demonstration_in_Frankfurt_am_Main_2012-02-11_%2812%29.jpg",
-                title: 'Personal photo',
+                title: {
+                    "en": 'Personal photo',
+                    "ru": 'Личное фото'
+                }
             },
             {
                 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Church_in_Wo%C5%82czkiewicze.jpg/220px-Church_in_Wo%C5%82czkiewicze.jpg",
-                title: 'Project 1'
+                title: {
+                    "en": 'Project 1',
+                    "ru": 'Проект 1'
+                }
             },
             {
                 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Miensk_Marksa_01.jpg/220px-Miensk_Marksa_01.jpg",
-                title: 'Project 2'
+                title: {
+                    "en": 'Project 2',
+                    "ru": 'Проект 2'
+                }
             }
         ]
     },
@@ -292,17 +349,21 @@ const architects = [
             "ru": "Александр Воинов"
         },
         years: "1913 - 1989",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "1929",
-                description:{
+                description: {
                     "ru": "Окончив учёбу, Георгий Заборский был направлен во Всероссийскую Академию художеств. Его преподавателями были такие знаменитые мастера, как А. Белогруд, И. Лангбард, О. Мунц, А. Никольский и др.",
                     "en": "Ended school"
                 }
             },
             {
                 date: "1945 - 1964",
-                description:{
+                description: {
                     "ru": "Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»). Он принимает активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши. Георгий Заборский принимает участие в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).",
                     "en": "Georgiy"
                 }
@@ -311,15 +372,24 @@ const architects = [
         images: [
             {
                 img: "https://upload.wikimedia.org/wikipedia/commons/d/da/Voinov_Marka_Belarus_2007.jpg",
-                title: 'Personal photo',
+                title: {
+                    "en": 'Personal photo',
+                    "ru": 'Личное фото'
+                }
             },
             {
                 img: "https://www.belta.by/uploads/lotus/news/000022_28421640F1EA787B4325840700457821_951143.jpg",
-                title: "Project 1"
+                title: {
+                    "en": 'Project 1',
+                    "ru": 'Проект 1'
+                }
             },
             {
                 img: "https://s16.stc.all.kpcdn.net/share/i/12/10486059/wr-960.jpg",
-                title: 'Project 2'
+                title: {
+                    "en": 'Project 2',
+                    "ru": 'Проект 2'
+                }
             }
         ]
     }
