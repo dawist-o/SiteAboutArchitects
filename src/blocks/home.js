@@ -8,7 +8,6 @@ import ArchitectOfTheDay from './architectOfTheDay'
 export default function Home() {
     return (
         <div>
-            <Header/>
             <About/>
             <ArchitectOfTheDay/>
             <Footer/>

@@ -4,7 +4,7 @@ import {useTranslation} from 'react-i18next'
 import React, {useEffect, useMemo} from 'react';
 import LanguageUtil from "../util/language";
 
-export default function Home() {
+export default function Header() {
     const langUtil = useMemo(() => new LanguageUtil(), []);
     const [value, setValue] = React.useState(langUtil.getCurrentLanguage() === langUtil.EN ? 1 : 0);
 
@@ -15,7 +15,7 @@ export default function Home() {
     const changeLanguage = (lng) => {
         langUtil.setCurrentLanguage(lng)
         i18n.changeLanguage(lng)
-        console.log("Language "+ langUtil.getCurrentLanguage())
+        console.log("Language " + langUtil.getCurrentLanguage())
     }
 
     const {t} = useTranslation();
@@ -32,12 +32,16 @@ export default function Home() {
                         <li className="nav-item"><a href="#" className="nav-link">{t("about")}</a></li>
                     </ul>
                     <Form inline>
-                        <Form>
+                        <Form onChange={(event, newValue) => {
+                            setValue(newValue);
+                        }}>
                             <Form.Group>
                                 <Form.Control as="select" id="selectLng" custom
-                                              onChange={() => changeLanguage(document.getElementById("selectLng").value)}>
-                                    <option value="ru">{t("rus")}</option>
-                                    <option value="en">{t("eng")}</option>
+                                              onChange={() =>
+                                                  changeLanguage(
+                                                      document.getElementById("selectLng").value)}>
+                                    <option value='ru'>{t("rus")}</option>
+                                    <option value='en'>{t("eng")}</option>
                                 </Form.Control>
                             </Form.Group>
                         </Form>

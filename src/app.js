@@ -1,15 +1,24 @@
-import {Suspense} from 'react';
-import {Route} from "react-router-dom"
-import Home from './blocks/home.js'
-import Architect from "./blocks/architect"
-import SearchPage from "./blocks/list"
+import Header from './blocks/header'
+import RouterElement from './blocks/routerElement'
 
-export default function App(){
-    return(
-        <Suspense fallback={null}>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/search" component={SearchPage}/>
-            <Route exact path="/architect/:id" component={Architect}/>
-        </Suspense>
+import {Container, CssBaseline, MuiThemeProvider} from "@material-ui/core";
+import React from 'react';
+import {BrowserRouter} from "react-router-dom";
+
+export default function App() {
+    return (
+        <BrowserRouter>
+            <React.Fragment>
+                <CssBaseline/>
+                <MuiThemeProvider>
+                    <Header/>
+                    <Container maxWidth="lg">
+                        <main>
+                            <RouterElement/>
+                        </main>
+                    </Container>
+                </MuiThemeProvider>
+            </React.Fragment>
+        </BrowserRouter>
     );
 }

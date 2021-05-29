@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LanguageUtil from "../util/language";
-import Header from "./header";
+
 import '../styles/timeline.css';
 import architects from "../data/architects";
 
@@ -27,7 +27,6 @@ export default function Architect(props) {
 
     return (
         <div>
-            <Header/>
             <Container>
                 <div style={{
                     alignItems: "center",
@@ -66,7 +65,7 @@ export default function Architect(props) {
                                     backgroundPosition: 'center center',
                                     backgroundRepeat: 'no-repeat',
                                 }}/>
-                                <span style={{fontSize: '40px'}}>{item.title}</span>
+                                <span style={{fontSize: '40px'}}>{item.title[langUtil.getCurrentLanguage()]}</span>
                             </div>
                         )}
                     </Slide>
