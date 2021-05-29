@@ -46,11 +46,11 @@ const architects = [
                 title: 'Project 1'
             },
             {
-                img: "https://lh3.googleusercontent.com/proxy/MDoEe2kP6iIwGGEz8QuNp7MK512VpQamVOj8Ct8Ws3ZDysIIvTBpprfFKEl2jCvyKU33mQCqTT4iyu64pCUwbBdgobikmx0uR-uLN4TMEUOGuxhhZNXP",
+                img: "https://citydog.by/content/editor_images/2013/december/4_z/19.jpg",
                 title: "Project 2"
             },
             {
-                img: "https://lh3.googleusercontent.com/proxy/A9AlPoanjwvu1QngAOc7uKqPbB4JZ7KOaMaBxGH0Nkg5ODYP-p5_wko0sHZ4fOijd1TXzHdeTs0ZynHbiRuQ171oUPA7CWPKB5GOUdk5i2j6_9J3U5_yIUhLxlMHy-HoABylVGUMScNGCHrA9vH7hE1YfA1v-wj9WMJVZXro",
+                img: "https://www.belta.by/uploads/lotus/news/000022_28421640F1EA787B4325840700457821_951143.jpg",
                 title: "Project 3"
             }
         ]
@@ -201,7 +201,7 @@ const architects = [
                 title: 'Project 1'
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQZjGBBGy70Hz9ZfM6IKVsBV4n0GpS-oeTTg&usqp=CAU",
+                img: "https://www.belta.by/uploads/lotus/news/000022_28421640F1EA787B4325840700457821_951143.jpg",
                 title: "Project 2"
             }
         ]
@@ -310,12 +310,12 @@ const architects = [
         ],
         images: [
             {
-                img: "https://lh3.googleusercontent.com/proxy/5LTQci5rRIrlvQzDryGUrOLGF2RVJ4NS9Dq6YJOUHPZKWmsSPMMWK-8-s0cJ47H9ux18PcA2Gf66NvGQbOdZHnjyum8QVRzl3vYKFcHVcASFkMY0v4Y",
+                img: "https://upload.wikimedia.org/wikipedia/commons/d/da/Voinov_Marka_Belarus_2007.jpg",
                 title: 'Personal photo',
             },
             {
-                img: "https://lh3.googleusercontent.com/proxy/9t1tJksVPP8djQDdIehkEGpkAo9TFeJdo7GW6akJ8yRXte0fTD-WtRbFT7vyNL4m_CQi9XziH0NAY2Znw9vCIAzzXF-FFMa5SNMHsp6uv1vlLc0FgwI",
-                title: 'Project 1'
+                img: "https://www.belta.by/uploads/lotus/news/000022_28421640F1EA787B4325840700457821_951143.jpg",
+                title: "Project 1"
             },
             {
                 img: "https://s16.stc.all.kpcdn.net/share/i/12/10486059/wr-960.jpg",
