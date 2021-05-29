@@ -1,12 +1,17 @@
 import React from 'react';
+
 import LanguageUtil from "../util/language";
 import Header from "./header";
 import '../styles/timeline.css';
 import architects from "../data/architects";
 
+import {Slide} from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
+
 export default function Architect(props) {
     const langUtil = new LanguageUtil()
-    var id = 2;
+
     const author = architects.filter(person => person.id === Number(props.match.params.id))[0]
     if (!author) {
         props.history.push('/')
@@ -15,43 +20,50 @@ export default function Architect(props) {
     return (
         <div>
             <Header/>
-            <div style={{justifyContent: 'center'}}>
-                <img src={author.images[0].img} alt={author.images[0].title} style={{
-                    width: '200px',
-                    height: '200px',
-                    backgroundPosition: 'center center',
-                    backgroundRepeat: 'no-repeat',
-                    borderRadius: '50%'
-                }}/>
-                <div style={{display: 'block'}}>
-                    <h3>{author.name}</h3>
-                    <h5>{author.years}</h5>
+            <div className="container">
+                <div style={{
+                    alignItems: "center",
+                    justifyContent: "center",
+                    display: "grid",
+                    textAlign: "center",
+                }}>
+                    <img src={author.images[0].img} alt={author.images[0].title} style={{
+                        width: '500px',
+                        height: '400px',
+                        backgroundPosition: 'center center',
+                        backgroundRepeat: 'no-repeat',
+                        borderRadius: '5%'
+                    }}/>
+                    <div style={{display: 'block'}}>
+                        <h3 style={{fontSize: '50px'}}>{author.name[langUtil.getCurrentLanguage()]}</h3>
+                        <h5 style={{fontSize: '35px'}}>{author.years}</h5>
+                    </div>
                 </div>
             </div>
-
-            {/*<div className="text-center">
-                <img src={vlad} cclass="rounded mx-auto d-block"/>
-            </div>*/}
+            <hr className="featurette-divider"/>
             <ul className="timeline">
                 {author.timeline.map(item =>
-                    <li className="event" data-date="12:30 - 1:00pm">
+                    <li className="event" data-date={item.date}>
                         <p>{item.description[langUtil.getCurrentLanguage()]}</p>
                     </li>
                 )}
             </ul>
             <hr className="featurette-divider"/>
-            <div className="container" style={{height:"600px"}}>
-                <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
-                        {author.timeline.map(item =>
-                            <div className="carousel-item">
-                                <img src={item.img} className="d-block w-100" />
+            <div className="container">
+                <div className="slide-container">
+                    <Slide>
+                        {author.images.map(item =>
+                            <div className="each-slide">
+                                <img src={item.img} style={{
+                                    width: '800px',
+                                    height: '600px',
+                                    backgroundPosition: 'center center',
+                                    backgroundRepeat: 'no-repeat',
+                                }}/>
+                                <span style={{fontSize: '40px'}}>{item.title}</span>
                             </div>
                         )}
-                        <div className="carousel-item active">
-                            <img src={author.images[0].img} className="d-block w-100" />
-                        </div>
-                    </div>
+                    </Slide>
                 </div>
             </div>
             <hr className="featurette-divider"/>
@@ -70,7 +82,6 @@ export default function Architect(props) {
                         allowFullScreen/>
                 </div>
             </div>
-
         </div>
     )
 }
