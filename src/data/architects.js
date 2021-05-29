@@ -6,6 +6,10 @@ const architects = [
             "ru": "Георгий Заборский"
         },
         years: "1909 - 1999",
+        bio: {
+          "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+          "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -62,6 +66,10 @@ const architects = [
             "ru": "Иосиф Лангбард"
         },
         years: "1889 - 1951",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -116,6 +124,10 @@ const architects = [
             "ru": "Михаил Осмоловский"
         },
         years: "1895 - 1963",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -177,6 +189,10 @@ const architects = [
             "ru": "Наум Трахтенберг"
         },
         years: "1901 - 1973",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -231,6 +247,10 @@ const architects = [
             "ru": "Владимир Король"
         },
         years: "1892 - 1962",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -271,6 +291,10 @@ const architects = [
             "ru": "Генрих Гай"
         },
         years: "1876 - 1942",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "11 ноября 1909 г.",
@@ -325,6 +349,10 @@ const architects = [
             "ru": "Александр Воинов"
         },
         years: "1913 - 1989",
+        bio: {
+            "en": "A magnificent architect who had a hand in the greatest works of architectural art produced in the most beautiful country of the past and present century - Belarus, and its most incredible city - Minsk",
+            "ru": "Великолепный архитектор, приложивший руку в к величайшим из произведений архитектурного искусства, произведенного в самой прекарсной стране прошлого и нынешнего века - Беларуси, и самом невероятном ее городе - Минске"
+        },
         timeline: [
             {
                 date: "1929",
